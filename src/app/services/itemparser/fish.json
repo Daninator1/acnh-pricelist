@@ -1,0 +1,18 @@
+[
+    {
+        "name": "sea_bass",
+        "value": 400,
+        "timeOfYearNorth": {
+            "monthStart": "january",
+            "monthEnd": "december"
+        },
+        "timeOfYearSouth": {
+            "monthStart": "january",
+            "monthEnd": "december"
+        },
+        "timeOfDay": {
+            "hourStart": 0,
+            "hourEnd": 24
+        }
+    }
+]
