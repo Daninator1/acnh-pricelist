@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586029202336,
+  "timestamp": 1586029538824,
   "index": "/acnh-pricelist/index.html",
   "assetGroups": [
     {
@@ -56,7 +56,7 @@
     "/acnh-pricelist/index.html": "41b86ac363f1b88843ae414e45c9bae4514fbe9b",
     "/acnh-pricelist/main-es2015.74025f8de614e88eee1e.js": "8f6967da95c6279790f5933a42ddd888329c3554",
     "/acnh-pricelist/main-es5.74025f8de614e88eee1e.js": "3eede0a4c3cc10c96548e15f7ccb886be6298f4d",
-    "/acnh-pricelist/manifest.webmanifest": "53ac7ed561ee18323cb0b178d34705c93149259a",
+    "/acnh-pricelist/manifest.webmanifest": "01d07266318faa775ab1efc8231e13637764cec3",
     "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js": "2169a8f7eac1f1899a657e859de525fa80e57a22",
     "/acnh-pricelist/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
