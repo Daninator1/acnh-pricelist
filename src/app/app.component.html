@@ -1,6 +1,13 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <span>Animal Crossing New Horizons Pricelist</span>
+    <span>Animal Crossing New Horizons {{'GENERAL.PRICELIST' | translate}}</span>
+    <span class="example-spacer"></span>
+    <span>
+      <select #langSelect (change)="translate.use(langSelect.value)">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+          {{ lang }}</option>
+      </select>
+    </span>
   </mat-toolbar-row>
 </mat-toolbar>
 <app-itemlist></app-itemlist>

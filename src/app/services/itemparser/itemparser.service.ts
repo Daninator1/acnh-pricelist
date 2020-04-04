@@ -1,29 +1,31 @@
 import { Injectable } from '@angular/core';
-import json from './fish.json';
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ItemParserService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
-  public loadFish(): ItemEntry[] {
-    return json as ItemEntry[];
+  public loadFish(): Observable<ItemEntry[]> {
+    return this.http.get('./assets/fish.json') as Observable<ItemEntry[]>;
   }
 }
 
 export interface ItemEntry {
   name: string;
   value: number;
-  timeOfYearNorth: TimeOfYear;
-  timeOfYearSouth: TimeOfYear;
+  monthsNorth: Months;
+  monthsSouth: Months;
+  location: string;
   timeOfDay: TimeOfDay;
 }
 
-export interface TimeOfYear {
-  monthStart: string;
-  monthEnd: string;
+export interface Months {
+  monthStart: number;
+  monthEnd: number;
 }
 
 export interface TimeOfDay {

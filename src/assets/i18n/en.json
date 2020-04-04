@@ -1,0 +1,36 @@
+{
+    "GENERAL": {
+        "PRICELIST": "Price List",
+        "NAME": "Name",
+        "VALUE": "Value",
+        "MONN": "Months North",
+        "MONS": "Months South",
+        "TOD": "Time of Day",
+        "BELLS": "Bells",
+        "LOCATION": "Location"
+    },
+    "MONTHS": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+    },
+    "LOCATION": {
+        "RIVER": "River",
+        "SEA": "Sea"
+    },
+    "FISH": {
+        "SEA_BASS": "Sea Bass",
+        "LOACH": "Loach",
+        "GUPPY": "Guppy"
+    }
+}
+  

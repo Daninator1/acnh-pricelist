@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemParserService, ItemEntry } from '../services/itemparser/itemparser.service';
+import { TranslateService } from '@ngx-translate/core';
+import { Sort } from '@angular/material/sort';
+import { MatDialog } from '@angular/material/dialog';
+import { ItemDialogComponent } from '../itemdialog/itemdialog.component';
 
 @Component({
   selector: 'app-itemlist',
@@ -8,16 +12,50 @@ import { ItemParserService, ItemEntry } from '../services/itemparser/itemparser.
 })
 export class ItemlistComponent implements OnInit {
 
-  displayedColumns: string[] = ['name', 'value', 'timeOfYearNorth', 'timeOfYearSouth', 'timeOfDay'];
+  displayedColumns: string[] = ['name', 'value', 'monthsNorth', 'monthsSouth', 'location', 'timeOfDay'];
   dataSource: ItemEntry[];
+  dataSourceSorted: ItemEntry[];
 
-  constructor(private parser: ItemParserService) { }
+  constructor(private parser: ItemParserService, public translate: TranslateService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
 
-    const fish = this.parser.loadFish();
-    console.log(fish);
-    this.dataSource = fish;
+    this.parser.loadFish().subscribe(fish => {
+      console.log(fish);
+      this.dataSource = fish;
+      this.dataSourceSorted = fish;
+    });
   }
 
+  onClick(data) {
+    this.dialog.open(ItemDialogComponent, {
+      width: '250px',
+      data
+    });
+  }
+
+  sortData(sort: Sort) {
+    const data = this.dataSource.slice();
+    if (!sort.active || sort.direction === '') {
+      this.dataSourceSorted = data;
+      return;
+    }
+
+    this.dataSourceSorted = data.sort((a, b) => {
+      const isAsc = sort.direction === 'asc';
+      switch (sort.active) {
+        case 'name': return compare(this.translate.instant('FISH.' + a.name), this.translate.instant('FISH.' + b.name), isAsc);
+        case 'value': return compare(a.value, b.value, isAsc);
+        case 'monthsNorth': return compare(a.monthsNorth.monthStart, b.monthsNorth.monthStart, isAsc);
+        case 'monthsSouth': return compare(a.monthsSouth.monthStart, b.monthsSouth.monthStart, isAsc);
+        case 'location': return compare(this.translate.instant('FISH.' + a.location), this.translate.instant('FISH.' + b.location), isAsc);
+        case 'timeOfDay': return compare(a.timeOfDay.hourStart, b.timeOfDay.hourStart, isAsc);
+        default: return 0;
+      }
+    });
+  }
+}
+
+function compare(a: number | string, b: number | string, isAsc: boolean) {
+  return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
 }
