@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586029538824,
+  "timestamp": 1586030938272,
   "index": "/acnh-pricelist/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/acnh-pricelist/favicon.ico",
         "/acnh-pricelist/index.html",
-        "/acnh-pricelist/main-es2015.74025f8de614e88eee1e.js",
-        "/acnh-pricelist/main-es5.74025f8de614e88eee1e.js",
+        "/acnh-pricelist/main-es2015.afaf5b00517e0f1c2851.js",
+        "/acnh-pricelist/main-es5.afaf5b00517e0f1c2851.js",
         "/acnh-pricelist/manifest.webmanifest",
         "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js",
         "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js",
@@ -53,9 +53,9 @@
     "/acnh-pricelist/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/acnh-pricelist/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/acnh-pricelist/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/acnh-pricelist/index.html": "41b86ac363f1b88843ae414e45c9bae4514fbe9b",
-    "/acnh-pricelist/main-es2015.74025f8de614e88eee1e.js": "8f6967da95c6279790f5933a42ddd888329c3554",
-    "/acnh-pricelist/main-es5.74025f8de614e88eee1e.js": "3eede0a4c3cc10c96548e15f7ccb886be6298f4d",
+    "/acnh-pricelist/index.html": "6f3144adc150504ceaa8bab5df3ddf86d8c48aa2",
+    "/acnh-pricelist/main-es2015.afaf5b00517e0f1c2851.js": "c4de915b27f7e28ed7fbcbaa553aad0a502162dd",
+    "/acnh-pricelist/main-es5.afaf5b00517e0f1c2851.js": "5c3e2cb62c329238e78786567050f5c7dc70e876",
     "/acnh-pricelist/manifest.webmanifest": "01d07266318faa775ab1efc8231e13637764cec3",
     "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js": "2169a8f7eac1f1899a657e859de525fa80e57a22",
