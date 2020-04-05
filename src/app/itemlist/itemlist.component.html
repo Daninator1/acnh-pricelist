@@ -3,7 +3,7 @@
     <ng-container matColumnDef="name">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>
             {{'GENERAL.NAME' | translate}} </th>
-        <td mat-cell *matCellDef="let element"> {{'FISH.' + element.name | translate}} </td>
+        <td mat-cell *matCellDef="let element"> {{type + element.name | translate}} </td>
     </ng-container>
 
     <ng-container matColumnDef="value">

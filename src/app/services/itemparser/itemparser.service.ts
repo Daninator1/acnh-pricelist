@@ -9,8 +9,8 @@ export class ItemParserService {
 
   constructor(private http: HttpClient) { }
 
-  public loadFish(): Observable<ItemEntry[]> {
-    return this.http.get('./assets/fish.json') as Observable<ItemEntry[]>;
+  public loadItems(source: string): Observable<ItemEntry[]> {
+    return this.http.get(`./assets/${source}.json`) as Observable<ItemEntry[]>;
   }
 }
 

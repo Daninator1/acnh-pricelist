@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import jsonEn from '../assets/i18n/en.json';
 import jsonDe from '../assets/i18n/de.json';
+import { ItemParserService } from './services/itemparser/itemparser.service';
 
 @Component({
   selector: 'app-root',

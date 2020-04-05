@@ -7,7 +7,8 @@
         "MONS": "Monate Süden",
         "TOD": "Tageszeit",
         "BELLS": "Sternis",
-        "LOCATION": "Ort"
+        "LOCATION": "Ort",
+        "SEARCH": "Suchen"
     },
     "MONTHS": {
         "1": "Januar",
