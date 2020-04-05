@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "FinkHeavy";
+    src: url("../assets/FinkHeavyRegular.ttf");
+}
+
 .example-spacer {
     flex: 1 1 auto;
-  }
+}
+
+.mat-toolbar {
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 15px;
+}
+
+#title {
+    font-family: FinkHeavy, "Helvetica Neue", sans-serif;
+    font-size: xx-large;
+}
