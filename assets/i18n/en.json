@@ -10,7 +10,7 @@
         "LOCATION": "Location",
         "SEARCH": "Search"
     },
-    "MONTHS": {
+    "MONTH": {
         "1": "January",
         "2": "February",
         "3": "March",
@@ -26,12 +26,20 @@
     },
     "LOCATION": {
         "RIVER": "River",
-        "SEA": "Sea"
+        "SEA": "Sea",
+        "AIR": "Air",
+        "TREE": "Tree",
+        "GROUND": "Ground"
     },
     "FISH": {
         "SEA_BASS": "Sea Bass",
         "LOACH": "Loach",
         "GUPPY": "Guppy"
+    },
+    "INSECT": {
+        "PEACOCK_BUTTERFLY": "Peacock Butterfly",
+        "SCARAB_BEETLE": "Scarab Beetle",
+        "TIGER_BEETLE": "Tiger Beetle"
     }
 }
   
