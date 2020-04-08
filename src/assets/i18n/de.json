@@ -10,7 +10,7 @@
         "LOCATION": "Ort",
         "SEARCH": "Suchen"
     },
-    "MONTHS": {
+    "MONTH": {
         "1": "Januar",
         "2": "Februar",
         "3": "März",
@@ -26,12 +26,20 @@
     },
     "LOCATION": {
         "RIVER": "Fluss",
-        "SEA": "Meer"
+        "SEA": "Meer",
+        "AIR": "Luft",
+        "TREE": "Baum",
+        "GROUND": "Boden"
     },
     "FISH": {
         "SEA_BASS": "Seebarsch",
         "LOACH": "Bachschmerle",
         "GUPPY": "Guppy"
+    },
+    "INSECT": {
+        "PEACOCK_BUTTERFLY": "Ritterfalter",
+        "SCARAB_BEETLE": "Goldskarabäus",
+        "TIGER_BEETLE": "Sandlaufkäfer"
     }
 }
   

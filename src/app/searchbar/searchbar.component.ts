@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
@@ -14,21 +14,25 @@ import { ItemDialogComponent } from '../itemdialog/itemdialog.component';
 })
 export class SearchbarComponent implements OnInit {
 
-  myControl = new FormControl();
+  @Input() sourceFish: Observable<ItemEntry[]>;
+  @Input() sourceInsects: Observable<ItemEntry[]>;
+
   fish: ItemEntry[] = [];
   insects: ItemEntry[] = [];
+
+  myControl = new FormControl();
   options: Option[];
   filteredOptions: Observable<Option[]>;
 
-  constructor(private parser: ItemParserService, public translate: TranslateService, public dialog: MatDialog) { }
+  constructor(public translate: TranslateService, public dialog: MatDialog) { }
 
   ngOnInit(): void {
 
-    this.parser.loadItems('fish').subscribe(fish => {
+    this.sourceFish.subscribe(fish => {
       this.fish = fish;
 
-      this.parser.loadItems('fish').subscribe(insects => {
-        // this.insects = insects;
+      this.sourceInsects.subscribe(insects => {
+        this.insects = insects;
 
         this.options = this.fish.map(x => ({
           data: x,
@@ -36,7 +40,7 @@ export class SearchbarComponent implements OnInit {
         })).concat(this.insects.map(x => (
           {
             data: x,
-            name: this.translate.instant('FISH.' + x.name)
+            name: this.translate.instant('INSECT.' + x.name)
           })));
 
         this.filteredOptions = this.myControl.valueChanges.pipe(

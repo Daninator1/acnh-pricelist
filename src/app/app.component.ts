@@ -12,7 +12,7 @@ import { ItemParserService } from './services/itemparser/itemparser.service';
 export class AppComponent {
   title = 'acnh-pricelist';
 
-  constructor(public translate: TranslateService) {
+  constructor(public parser: ItemParserService, public translate: TranslateService) {
     translate.addLangs(['de', 'en']);
     translate.setDefaultLang('en');
 

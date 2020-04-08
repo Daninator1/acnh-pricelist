@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "SecondaRound";
-    src: url("./assets/SecondaRoundW00Bold.ttf");
+    src: url("./assets/fonts/SecondaRoundW00Bold.ttf");
 }
 
 * {
@@ -12,7 +12,7 @@
 html,
 body {
     height: 100%;
-    background-image: url('./assets/background.png');
+    background-image: url('./assets/backgrounds/background.png');
 }
 body {
     margin: 0;

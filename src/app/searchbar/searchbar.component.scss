@@ -1,21 +1,35 @@
 #container {
     max-width: 50%;
     width: 100%;
-    background-color: white;
-    border-radius: 1em;
+    background-color: #f2eac1;
+    border-radius: 1rem;
     margin: 0 auto;
 }
 
 .searchbar {
     max-width: 100%;
     width: 100%;
-    background-color: white;
-    border-radius: 1em;
+    background-color: #f2eac1;
+    border-radius: 1rem;
     margin: 0 auto;
 }
 
 .form {
     width: inherit;
     text-align: center;
-    margin-right: 1em;
+    margin-right: 1rem;
+}
+
+.optionIcon {
+    width: 1.5rem;
+    margin-right: 1rem;
+    border-radius: 35%;
+    border-style: groove;
+    border-width: thin;
+    border-color: brown; // needs to come from theme
+    vertical-align: middle;
+}
+
+.mat-option {
+    background-color: #f2eac1;
 }

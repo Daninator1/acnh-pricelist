@@ -10,5 +10,6 @@
     </span>
   </mat-toolbar-row>
 </mat-toolbar>
-<app-itemlist source="fish"></app-itemlist>
-<app-searchbar></app-searchbar>
+<app-itemlist [source]="parser.fish" translationPrefix="FISH."></app-itemlist>
+<app-itemlist [source]="parser.insects" translationPrefix="INSECT."></app-itemlist>
+<app-searchbar [sourceFish]="parser.fish" [sourceInsects]="parser.insects"></app-searchbar>
