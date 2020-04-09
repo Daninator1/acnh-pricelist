@@ -16,3 +16,22 @@
     font-family: FinkHeavy, "Helvetica Neue", sans-serif;
     font-size: xx-large;
 }
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.fishlist {
+    display: flex;
+}
+
+.insectlist {
+    display: flex;
+}

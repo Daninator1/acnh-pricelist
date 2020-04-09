@@ -1,23 +1,15 @@
-#container {
-    max-width: 50%;
-    width: 100%;
-    background-color: #f2eac1;
-    border-radius: 1rem;
-    margin: 0 auto;
-}
-
 .searchbar {
-    max-width: 100%;
-    width: 100%;
+    max-width: 95%;
+    width: 40rem;
     background-color: #f2eac1;
     border-radius: 1rem;
     margin: 0 auto;
 }
 
 .form {
-    width: inherit;
+    width: 100%;
     text-align: center;
-    margin-right: 1rem;
+    font-size: large;
 }
 
 .optionIcon {
@@ -31,5 +23,5 @@
 }
 
 .mat-option {
-    background-color: #f2eac1;
+    background-color: #f2eac1; // needs to come from theme
 }

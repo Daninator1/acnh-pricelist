@@ -8,7 +8,9 @@
         "TOD": "Time of Day",
         "BELLS": "Bells",
         "LOCATION": "Location",
-        "SEARCH": "Search"
+        "SEARCH": "Search",
+        "CURRENT_FISH": "Current Fish",
+        "CURRENT_INSECTS": "Current Insects"
     },
     "MONTH": {
         "1": "January",

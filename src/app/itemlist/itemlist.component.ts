@@ -15,6 +15,7 @@ export class ItemlistComponent implements OnInit {
 
   @Input() source: Observable<ItemEntry[]>;
   @Input() translationPrefix: string;
+  @Input() title: string;
 
   displayedColumns: string[] = ['name', 'value', 'monthsNorth', 'monthsSouth', 'location', 'timeOfDay'];
   dataSource: ItemEntry[];

@@ -1,20 +1,16 @@
-<div id="container" class="mat-elevation-z4" style="border-radius: 1em;">
-    <form class="searchbar">
-        <mat-form-field class="form">
-            <input type="text" placeholder="{{'GENERAL.SEARCH' | translate}}" aria-label="Number" matInput
-                [formControl]="myControl" [matAutocomplete]="auto">
-            <mat-autocomplete #auto="matAutocomplete">
-                <mat-option *ngFor="let option of filteredOptions | async" [value]="option.name"
-                    (click)="onClick(option.data)">
-                    <span>
-                        <!-- <img class="optionIcon"
-                            [src]="option.data.type === 0 ? '../assets/icons/fish.svg' : '../assets/icons/butterfly.svg'"> -->
-                        <img class="optionIcon" [src]="option.data.type === 0 ? '../assets/icons/fish/' + option.data.name.toLowerCase() + '_small.png' :
-                        '../assets/icons/insects/' + option.data.name.toLowerCase() + '_small.png'">
-                        {{option.name}}
-                    </span>
-                </mat-option>
-            </mat-autocomplete>
-        </mat-form-field>
-    </form>
-</div>
+<form class="searchbar mat-elevation-z4">
+    <mat-form-field class="form">
+        <input type="text" placeholder="{{'GENERAL.SEARCH' | translate}}" aria-label="Number" matInput
+            [formControl]="myControl" [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option.name"
+                (click)="onClick(option.data)">
+                <span>
+                    <img class="optionIcon" [src]="option.data.type === 0 ? 'assets/icons/fish/' + option.data.name.toLowerCase() + '_small.png' :
+                    'assets/icons/insects/' + option.data.name.toLowerCase() + '_small.png'">
+                    {{option.name}}
+                </span>
+            </mat-option>
+        </mat-autocomplete>
+    </mat-form-field>
+</form>
