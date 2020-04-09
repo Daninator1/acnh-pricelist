@@ -8,7 +8,9 @@
         "TOD": "Tageszeit",
         "BELLS": "Sternis",
         "LOCATION": "Ort",
-        "SEARCH": "Suchen"
+        "SEARCH": "Suchen",
+        "CURRENT_FISH": "Aktuelle Fische",
+        "CURRENT_INSECTS": "Aktuelle Insekten" 
     },
     "MONTH": {
         "1": "Januar",
