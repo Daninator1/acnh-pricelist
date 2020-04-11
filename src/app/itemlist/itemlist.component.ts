@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { ItemParserService, ItemEntry } from '../services/itemparser/itemparser.service';
 import { TranslateService } from '@ngx-translate/core';
 import { Sort } from '@angular/material/sort';
@@ -11,17 +11,26 @@ import { Observable } from 'rxjs';
   templateUrl: './itemlist.component.html',
   styleUrls: ['./itemlist.component.scss']
 })
-export class ItemlistComponent implements OnInit {
+export class ItemlistComponent implements OnInit, OnChanges {
 
   @Input() source: Observable<ItemEntry[]>;
   @Input() translationPrefix: string;
   @Input() title: string;
+  @Input() showSouth = false;
 
-  displayedColumns: string[] = ['name', 'value', 'monthsNorth', 'monthsSouth', 'location', 'timeOfDay'];
+  displayedColumns: string[] = ['name', 'value', 'location', 'monthsNorth', 'timeOfDay'];
   dataSource: ItemEntry[];
   dataSourceSorted: ItemEntry[];
 
-  constructor(private parser: ItemParserService, public translate: TranslateService, public dialog: MatDialog) {
+  constructor(public translate: TranslateService, public dialog: MatDialog) {
+  }
+
+  ngOnChanges() {
+    if (this.showSouth) {
+      this.displayedColumns[3] = 'monthsSouth';
+    } else {
+      this.displayedColumns[3] = 'monthsNorth';
+    }
   }
 
   ngOnInit(): void {
@@ -52,11 +61,11 @@ export class ItemlistComponent implements OnInit {
         case 'name': return compare(this.translate.instant(this.translationPrefix + a.name),
           this.translate.instant(this.translationPrefix + b.name), isAsc);
         case 'value': return compare(a.value, b.value, isAsc);
-        case 'monthsNorth': return compare(a.monthsNorth.monthStart, b.monthsNorth.monthStart, isAsc);
-        case 'monthsSouth': return compare(a.monthsSouth.monthStart, b.monthsSouth.monthStart, isAsc);
+        case 'monthsNorth': return compare(a.monthsNorth[0].monthStart, b.monthsNorth[0].monthStart, isAsc);
+        case 'monthsSouth': return compare(a.monthsSouth[0].monthStart, b.monthsSouth[0].monthStart, isAsc);
         case 'location': return compare(this.translate.instant(this.translationPrefix + a.location),
           this.translate.instant(this.translationPrefix + b.location), isAsc);
-        case 'timeOfDay': return compare(a.timeOfDay.hourStart, b.timeOfDay.hourStart, isAsc);
+        case 'timeOfDay': return compare(a.timeOfDay[0].hourStart, b.timeOfDay[0].hourStart, isAsc);
         default: return 0;
       }
     });

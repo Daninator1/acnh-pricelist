@@ -2,52 +2,101 @@
     {
         "name": "PEACOCK_BUTTERFLY",
         "value": 2500,
-        "monthsNorth": {
-            "monthStart": 3,
-            "monthEnd": 6
-        },
-        "monthsSouth": {
-            "monthStart": 9,
-            "monthEnd": 12
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 3,
+                "monthEnd": 6
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 9,
+                "monthEnd": 12
+            }
+        ],
         "location": "AIR",
-        "timeOfDay": {
-            "hourStart": 4,
-            "hourEnd": 19
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 4,
+                "hourEnd": 19
+            }
+        ]
     },
     {
         "name": "SCARAB_BEETLE",
         "value": 10000,
-        "monthsNorth": {
-            "monthStart": 7,
-            "monthEnd": 8
-        },
-        "monthsSouth": {
-            "monthStart": 1,
-            "monthEnd": 2
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 7,
+                "monthEnd": 8
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 2
+            }
+        ],
         "location": "TREE",
-        "timeOfDay": {
-            "hourStart": 23,
-            "hourEnd": 8
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 23,
+                "hourEnd": 8
+            }
+        ]
     },
     {
         "name": "TIGER_BEETLE",
         "value": 1500,
-        "monthsNorth": {
-            "monthStart": 2,
-            "monthEnd": 10
-        },
-        "monthsSouth": {
-            "monthStart": 1,
-            "monthEnd": 4
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 2,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 4
+            },
+            {
+                "monthStart": 8,
+                "monthEnd": 12
+            }
+        ],
         "location": "GROUND",
-        "timeOfDay": {
-            "hourStart": 0,
-            "hourEnd": 24
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "WALKING_STICK",
+        "value": 600,
+        "monthsNorth": [
+            {
+                "monthStart": 7,
+                "monthEnd": 11
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 5
+            }
+        ],
+        "location": "GROUND",
+        "timeOfDay": [
+            {
+                "hourStart": 4,
+                "hourEnd": 8
+            },
+            {
+                "hourStart": 17,
+                "hourEnd": 19
+            }
+        ]
     }
 ]

@@ -1,5 +1,5 @@
 table {
-    background-color: #f2eac1;  
+    background-color: #f2eac1;
 }
 
 .container {
@@ -22,7 +22,81 @@ table {
     background-color: brown; // needs to come from theme
 }
 
+::ng-deep .mat-sort-header-container {
+    display: flex;
+    justify-content: center;
+}
+
 .mat-row:hover {
     background-color: lightgray;
     cursor: pointer;
+}
+
+.value {
+    text-align: right;
+    width: 75%;
+}
+
+.monthsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.monthStart {
+    width: 40%;
+    text-align: right;
+}
+
+.monthEnd {
+    width: 40%;
+}
+
+.hourContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hourStart {
+    width: 40%;
+    text-align: right;
+}
+
+.hourEnd {
+    width: 40%;
+}
+
+.short {
+    display: none;
+}
+
+.centerCell {
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .monthStart {
+        text-align: left;
+    }
+
+    .monthSeparator {
+        flex-basis: 45%;
+    }
+
+    .hourStart {
+        text-align: left;
+    }
+
+    .hourSeparator {
+        flex-basis: 45%;
+    }
+
+    .long {
+        display: none;
+    }
+
+    .short {
+        display: inline;
+    }
 }

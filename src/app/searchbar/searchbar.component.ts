@@ -58,7 +58,7 @@ export class SearchbarComponent implements OnInit {
       })).concat(this.insects.map(x => (
         {
           data: x,
-          name: this.translate.instant('FISH.' + x.name)
+          name: this.translate.instant('INSECT.' + x.name)
         })));
     }
     );

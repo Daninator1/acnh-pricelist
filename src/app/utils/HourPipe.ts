@@ -12,7 +12,7 @@ export class HourPipe implements PipeTransform {
 
     public transform(value: number): string {
         if (this.translate.currentLang !== 'en') {
-            return value.toString();
+            return ('0' + value).slice(-2).toString();
         }
 
         const suffix = value < 12 || value === 24 ? ' am' : ' pm';

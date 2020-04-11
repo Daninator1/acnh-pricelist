@@ -26,6 +26,20 @@
         "11": "November",
         "12": "December"
     },
+    "MONTH_SHORT": {
+        "1": "Jan.",
+        "2": "Feb.",
+        "3": "Mar",
+        "4": "Apr.",
+        "5": "May",
+        "6": "Jun.",
+        "7": "Jul.",
+        "8": "Aug.",
+        "9": "Sept.",
+        "10": "Oct.",
+        "11": "Nov.",
+        "12": "Dec."
+    },
     "LOCATION": {
         "RIVER": "River",
         "SEA": "Sea",
@@ -41,7 +55,8 @@
     "INSECT": {
         "PEACOCK_BUTTERFLY": "Peacock Butterfly",
         "SCARAB_BEETLE": "Scarab Beetle",
-        "TIGER_BEETLE": "Tiger Beetle"
+        "TIGER_BEETLE": "Tiger Beetle",
+        "WALKING_STICK": "Walking Stick"
     }
 }
   

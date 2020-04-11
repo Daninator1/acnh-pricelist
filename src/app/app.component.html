@@ -3,6 +3,9 @@
     <span id="title">ACNH {{'GENERAL.PRICELIST' | translate}}</span>
     <span class="example-spacer"></span>
     <span>
+      south <input type="checkbox" [(ngModel)]="checked" >
+    </span>
+    <span>
       <select #langSelect (change)="translate.use(langSelect.value)">
         <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
           {{ lang }}</option>
@@ -12,6 +15,8 @@
 </mat-toolbar>
 <div class="container">
   <app-searchbar class="searchbar" [sourceFish]="parser.fish" [sourceInsects]="parser.insects"></app-searchbar>
-  <app-itemlist class="fishlist" title="GENERAL.CURRENT_FISH" [source]="parser.fish" translationPrefix="FISH."></app-itemlist>
-  <app-itemlist class="insectlist" title="GENERAL.CURRENT_INSECTS" [source]="parser.insects" translationPrefix="INSECT."></app-itemlist>
+  <app-itemlist class="fishlist" title="GENERAL.CURRENT_FISH" [showSouth]="checked" [source]="parser.fish"
+    translationPrefix="FISH."></app-itemlist>
+  <app-itemlist class="insectlist" title="GENERAL.CURRENT_INSECTS" [showSouth]="checked" [source]="parser.insects"
+    translationPrefix="INSECT."></app-itemlist>
 </div>

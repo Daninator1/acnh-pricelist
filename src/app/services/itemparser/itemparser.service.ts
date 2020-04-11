@@ -34,10 +34,10 @@ export interface ItemEntry {
   name: string;
   type: ItemType;
   value: number;
-  monthsNorth: Months;
-  monthsSouth: Months;
+  monthsNorth: Months[];
+  monthsSouth: Months[];
   location: string;
-  timeOfDay: TimeOfDay;
+  timeOfDay: TimeOfDay[];
 }
 
 export interface Months {
