@@ -2,52 +2,70 @@
     {
         "name": "SEA_BASS",
         "value": 400,
-        "monthsNorth": {
-            "monthStart": 1,
-            "monthEnd": 12
-        },
-        "monthsSouth": {
-            "monthStart": 1,
-            "monthEnd": 12
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
         "location": "SEA",
-        "timeOfDay": {
-            "hourStart": 0,
-            "hourEnd": 24
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
     },
     {
         "name": "LOACH",
         "value": 400,
-        "monthsNorth": {
-            "monthStart": 3,
-            "monthEnd": 5
-        },
-        "monthsSouth": {
-            "monthStart": 9,
-            "monthEnd": 11
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 3,
+                "monthEnd": 5
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 9,
+                "monthEnd": 11
+            }
+        ],
         "location": "RIVER",
-        "timeOfDay": {
-            "hourStart": 0,
-            "hourEnd": 24
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
     },
     {
         "name": "GUPPY",
         "value": 1300,
-        "monthsNorth": {
-            "monthStart": 4,
-            "monthEnd": 11
-        },
-        "monthsSouth": {
-            "monthStart": 10,
-            "monthEnd": 5
-        },
+        "monthsNorth": [
+            {
+                "monthStart": 4,
+                "monthEnd": 11
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 10,
+                "monthEnd": 5
+            }
+        ],
         "location": "RIVER",
-        "timeOfDay": {
-            "hourStart": 9,
-            "hourEnd": 16
-        }
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
     }
 ]

@@ -26,6 +26,20 @@
         "11": "November",
         "12": "Dezember"
     },
+    "MONTH_SHORT": {
+        "1": "Jan.",
+        "2": "Feb.",
+        "3": "März",
+        "4": "Apr.",
+        "5": "Mai",
+        "6": "Jun.",
+        "7": "Jul.",
+        "8": "Aug.",
+        "9": "Sept.",
+        "10": "Okt.",
+        "11": "Nov.",
+        "12": "Dez."
+    },
     "LOCATION": {
         "RIVER": "Fluss",
         "SEA": "Meer",
@@ -41,7 +55,8 @@
     "INSECT": {
         "PEACOCK_BUTTERFLY": "Ritterfalter",
         "SCARAB_BEETLE": "Goldskarabäus",
-        "TIGER_BEETLE": "Sandlaufkäfer"
+        "TIGER_BEETLE": "Sandlaufkäfer",
+        "WALKING_STICK": "Stabschrecke"
     }
 }
   

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586454229146,
+  "timestamp": 1586565086744,
   "index": "/acnh-pricelist/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/acnh-pricelist/favicon.ico",
         "/acnh-pricelist/index.html",
-        "/acnh-pricelist/main-es2015.52f0291cb23e8045b526.js",
-        "/acnh-pricelist/main-es5.52f0291cb23e8045b526.js",
+        "/acnh-pricelist/main-es2015.8c2315028bfdff07e788.js",
+        "/acnh-pricelist/main-es5.8c2315028bfdff07e788.js",
         "/acnh-pricelist/manifest.webmanifest",
         "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js",
         "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js",
         "/acnh-pricelist/runtime-es2015.c9afb3256f2870e161de.js",
         "/acnh-pricelist/runtime-es5.c9afb3256f2870e161de.js",
-        "/acnh-pricelist/styles.db574f10c8652c2fe02b.css"
+        "/acnh-pricelist/styles.d3eb3356df29fa4dff4a.css"
       ],
       "patterns": []
     },
@@ -57,6 +57,8 @@
         "/acnh-pricelist/assets/icons/insects/scarab_beetle_small.png",
         "/acnh-pricelist/assets/icons/insects/tiger_beetle.png",
         "/acnh-pricelist/assets/icons/insects/tiger_beetle_small.png",
+        "/acnh-pricelist/assets/icons/insects/walking_stick.png",
+        "/acnh-pricelist/assets/icons/insects/walking_stick_small.png",
         "/acnh-pricelist/background.b205e9821644420570ef.png"
       ],
       "patterns": []
@@ -68,13 +70,13 @@
     "/acnh-pricelist/SecondaRoundW00Bold.66f9442fed72a9ba52e0.ttf": "273e1ea54632ac892179598927176d61dec641f7",
     "/acnh-pricelist/assets/backgrounds/background.png": "842af57649de418c33d1977d3d908e19e490a728",
     "/acnh-pricelist/assets/backgrounds/background.psd": "30b925b01582e5864fd81b4a0d97862df105078d",
-    "/acnh-pricelist/assets/data/fish.json": "94033799c8743878487b7766e4d94567b49c72de",
-    "/acnh-pricelist/assets/data/insects.json": "45ebe91beeb37a601d89d5eaaf9a3e3435b0b335",
+    "/acnh-pricelist/assets/data/fish.json": "fe55967626434d5c1fcdf780da7c1fd6f323e125",
+    "/acnh-pricelist/assets/data/insects.json": "22d65c8e19d7f0e9f4384a4abe7d81d71638f044",
     "/acnh-pricelist/assets/fonts/FinkHeavyRegular.ttf": "33feeddea2f837484a0eaf61233fe9a697e018a0",
     "/acnh-pricelist/assets/fonts/SecondaRoundW00Bold.ttf": "273e1ea54632ac892179598927176d61dec641f7",
     "/acnh-pricelist/assets/fonts/SecondaRoundW00Regular.ttf": "77f4997044fed2b4a3b91197c7642d5a9286bc83",
-    "/acnh-pricelist/assets/i18n/de.json": "964d47156287e5563a5742364b8b7a073f8751b5",
-    "/acnh-pricelist/assets/i18n/en.json": "4d598c0bcef86773d58418b94b57aa42ba52e351",
+    "/acnh-pricelist/assets/i18n/de.json": "992dea16eaca338e713d3dd370f4adc529e88ac2",
+    "/acnh-pricelist/assets/i18n/en.json": "41bce171ad7253d675b586bbb9e35a3b74bb4b48",
     "/acnh-pricelist/assets/icons/fish/guppy.png": "d0ef63c9bbbcfb860de709da7c916d4dc42a4932",
     "/acnh-pricelist/assets/icons/fish/guppy_small.png": "feb8388a43a5d991d03dfa019c8719c103d7d83a",
     "/acnh-pricelist/assets/icons/fish/loach.png": "27bde29e7213f32a0cac6a1891ed5e0d4c63f9df",
@@ -95,17 +97,19 @@
     "/acnh-pricelist/assets/icons/insects/scarab_beetle_small.png": "256b9c413f961302958c80b02e29da7ecf142bae",
     "/acnh-pricelist/assets/icons/insects/tiger_beetle.png": "dfd24bc1fe8ef8c36dec8d4bd91541059bc62484",
     "/acnh-pricelist/assets/icons/insects/tiger_beetle_small.png": "e8625c7e4446153c2313fd376474b42c300ea324",
+    "/acnh-pricelist/assets/icons/insects/walking_stick.png": "d3574f4df5d88aa209ffefdb6e62f7e36ac8edc5",
+    "/acnh-pricelist/assets/icons/insects/walking_stick_small.png": "abf76c9d30d46884d1640488b9c384df8d21640b",
     "/acnh-pricelist/background.b205e9821644420570ef.png": "842af57649de418c33d1977d3d908e19e490a728",
     "/acnh-pricelist/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/acnh-pricelist/index.html": "d9675fceb6a9de3247cdee22b438c786938e1de5",
-    "/acnh-pricelist/main-es2015.52f0291cb23e8045b526.js": "80f4047a9eb1a1b14762aeb2dc46e03f8719d8d9",
-    "/acnh-pricelist/main-es5.52f0291cb23e8045b526.js": "52cf7186ee4dc510bdaabf15e0967255c3955b07",
+    "/acnh-pricelist/index.html": "da36f40fd174a4ebf97b69cbdb71b7ddc5c993f6",
+    "/acnh-pricelist/main-es2015.8c2315028bfdff07e788.js": "b504023b9eaf3e9065004485e91e31aae8b8507d",
+    "/acnh-pricelist/main-es5.8c2315028bfdff07e788.js": "7013d5ceb0a5580f3ff57d1c0c57d6e1d4784848",
     "/acnh-pricelist/manifest.webmanifest": "01d07266318faa775ab1efc8231e13637764cec3",
     "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js": "2169a8f7eac1f1899a657e859de525fa80e57a22",
     "/acnh-pricelist/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/acnh-pricelist/runtime-es5.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/acnh-pricelist/styles.db574f10c8652c2fe02b.css": "2c4309b05b562a0604fe25ed529accf971ddd90f"
+    "/acnh-pricelist/styles.d3eb3356df29fa4dff4a.css": "3abc83f0961ec028ff8ae6f8a311d5b82ff79214"
   },
   "navigationUrls": [
     {
