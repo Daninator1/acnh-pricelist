@@ -14,9 +14,9 @@
   </mat-toolbar-row>
 </mat-toolbar>
 <div class="container">
-  <app-searchbar class="searchbar" [sourceFish]="parser.fish" [sourceInsects]="parser.insects"></app-searchbar>
-  <app-itemlist class="fishlist" title="GENERAL.CURRENT_FISH" [showSouth]="checked" [source]="parser.fish"
+  <app-searchbar class="searchbar" [showSouth]="checked" [sourceFish]="parser.fish" [sourceInsects]="parser.insects"></app-searchbar>
+  <app-itemlist class="fishlist" title="GENERAL.ALL_FISH" [showSouth]="checked" [source]="parser.fish"
     translationPrefix="FISH."></app-itemlist>
-  <app-itemlist class="insectlist" title="GENERAL.CURRENT_INSECTS" [showSouth]="checked" [source]="parser.insects"
+  <app-itemlist class="insectlist" title="GENERAL.ALL_INSECTS" [showSouth]="checked" [source]="parser.insects"
     translationPrefix="INSECT."></app-itemlist>
 </div>

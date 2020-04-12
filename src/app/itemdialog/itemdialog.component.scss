@@ -1,0 +1,30 @@
+@import "~@angular/material/theming";
+@import '../../theme.scss';
+
+::ng-deep .mat-dialog-container {
+    background-color: $ac-secondary;
+    width: 100vw;
+    max-width: 700px;
+    border-radius: 1rem;
+}
+
+.containerMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerSub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: medium;
+    border-color: $ac-title;
+}

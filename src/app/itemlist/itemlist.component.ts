@@ -43,8 +43,10 @@ export class ItemlistComponent implements OnInit, OnChanges {
 
   onClick(data) {
     this.dialog.open(ItemDialogComponent, {
-      width: '250px',
-      data
+      data: {
+        item: data,
+        showSouth: this.showSouth
+      }
     });
   }
 

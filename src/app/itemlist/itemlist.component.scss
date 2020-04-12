@@ -1,5 +1,8 @@
-table {
-    background-color: #f2eac1;
+@import "~@angular/material/theming";
+@import '../../theme.scss';
+
+.mat-table {
+    background-color: $ac-secondary;
 }
 
 .container {
@@ -19,7 +22,8 @@ table {
     margin: 0;
     text-align: center;
     font-size: large;
-    background-color: brown; // needs to come from theme
+    background-color: $ac-title;
+    color: $ac-secondary;
 }
 
 ::ng-deep .mat-sort-header-container {
@@ -28,7 +32,7 @@ table {
 }
 
 .mat-row:hover {
-    background-color: lightgray;
+    background-color: mat-color($ac-accent);
     cursor: pointer;
 }
 

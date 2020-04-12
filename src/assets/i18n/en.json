@@ -3,14 +3,16 @@
         "PRICELIST": "Price List",
         "NAME": "Name",
         "VALUE": "Value",
-        "MONN": "Months North",
-        "MONS": "Months South",
+        "MONN": "Months (North)",
+        "MONS": "Months (South)",
         "TOD": "Time of Day",
         "BELLS": "Bells",
         "LOCATION": "Location",
         "SEARCH": "Search",
         "CURRENT_FISH": "Current Fish",
-        "CURRENT_INSECTS": "Current Insects"
+        "CURRENT_INSECTS": "Current Insects",
+        "ALL_FISH": "All Fish",
+        "ALL_INSECTS": "All Insects"
     },
     "MONTH": {
         "1": "January",
@@ -47,10 +49,42 @@
         "TREE": "Tree",
         "GROUND": "Ground"
     },
+    "SHADOW": {
+        "VERY_SMALL": "Very Small",
+        "SMALL": "Small",
+        "MEDIUM": "Medium",
+        "LARGE": "Large",
+        "HUGE": "Huge"
+    },
     "FISH": {
         "SEA_BASS": "Sea Bass",
+        "BITTERLING": "Bitterling",
+        "PALE_CHUB": "Pale chub",
+        "CRUCIAN_CARP": "Crucian carp",
+        "DACE": "Dace",
+        "SOFT_SHELLED_TURTLE": "Soft-shelled turtle",
+        "SNAPPING_TURTLE": "Snapping turtle",
+        "FRESHWATER_GOBY": "Freshwater goby",
         "LOACH": "Loach",
-        "GUPPY": "Guppy"
+        "BLUEGILL": "Bluegill",
+        "YELLOW_PERCH": "Yellow_perch",
+        "BLACK_BASS": "Black bass",
+        "TILAPIA": "Tilapia",
+        "PIKE": "Pike",
+        "POND_SMELT": "Pond smelt",
+        "SWEETFISH": "Sweetfish",
+        "MITTEN_CRAB": "Mitten crab",
+        "GUPPY": "Guppy",
+        "NIBBLE_FISH": "Nibble fish",
+        "ANGELFISH": "Angelfish",
+        "BETTA": "Betta",
+        "NEON_TETRA": "Neon tetra",
+        "RAINBOWFISH": "Rainbowfish",
+        "PIRANHA": "Piranha",
+        "AROWANA": "Arowana",
+        "DORADO": "Dorado",
+        "ARAPAIMA": "Arapaima",
+        "SADDLED_BICHIR": "Saddled bichir"
     },
     "INSECT": {
         "PEACOCK_BUTTERFLY": "Peacock Butterfly",

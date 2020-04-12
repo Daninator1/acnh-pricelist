@@ -2,6 +2,8 @@
     {
         "name": "SEA_BASS",
         "value": 400,
+        "location": "SEA",
+        "shadow": "SMALL",
         "monthsNorth": [
             {
                 "monthStart": 1,
@@ -14,7 +16,6 @@
                 "monthEnd": 12
             }
         ],
-        "location": "SEA",
         "timeOfDay": [
             {
                 "hourStart": 0,
@@ -23,8 +24,177 @@
         ]
     },
     {
+        "name": "BITTERLING",
+        "value": 900,
+        "location": "RIVER",
+        "monthsNorth": [
+            {
+                "monthStart": 11,
+                "monthEnd": 3
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 5,
+                "monthEnd": 9
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "PALE_CHUB",
+        "value": 200,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "CRUCIAN_CARP",
+        "value": 160,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "DACE",
+        "value": 240,
+        "location": "RIVER",
+        "shadow": "MEDIUM",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
+        "name": "SOFT_SHELLED_TURTLE",
+        "value": 3750,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 8,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 2,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
+        "name": "SNAPPING_TURTLE",
+        "value": 5000,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 4,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 10,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 21,
+                "hourEnd": 4
+            }
+        ]
+    },
+    {
+        "name": "FRESHWATER_GOBY",
+        "value": 400,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
         "name": "LOACH",
         "value": 400,
+        "location": "RIVER",
+        "shadow": "SMALL",
         "monthsNorth": [
             {
                 "monthStart": 3,
@@ -37,7 +207,6 @@
                 "monthEnd": 11
             }
         ],
-        "location": "RIVER",
         "timeOfDay": [
             {
                 "hourStart": 0,
@@ -46,8 +215,202 @@
         ]
     },
     {
+        "name": "BLUEGILL",
+        "value": 180,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 4,
+                "hourEnd": 21
+            }
+        ]
+    },
+    {
+        "name": "YELLOW_PERCH",
+        "value": 300,
+        "location": "RIVER",
+        "shadow": "MEDIUM",
+        "monthsNorth": [
+            {
+                "monthStart": 10,
+                "monthEnd": 3
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 4,
+                "monthEnd": 9
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "BLACK_BASS",
+        "value": 400,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 12
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "TILAPIA",
+        "value": 800,
+        "location": "RIVER",
+        "shadow": "MEDIUM",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "PIKE",
+        "value": 1800,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 9,
+                "monthEnd": 12
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 3,
+                "monthEnd": 6
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "POND_SMELT",
+        "value": 400,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 2
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 8
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "SWEETFISH",
+        "value": 900,
+        "location": "RIVER",
+        "shadow": "MEDIUM",
+        "monthsNorth": [
+            {
+                "monthStart": 7,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 1,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 0,
+                "hourEnd": 24
+            }
+        ]
+    },
+    {
+        "name": "MITTEN_CRAB",
+        "value": 2000,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 9,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 3,
+                "monthEnd": 5
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
         "name": "GUPPY",
         "value": 1300,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
         "monthsNorth": [
             {
                 "monthStart": 4,
@@ -60,11 +423,249 @@
                 "monthEnd": 5
             }
         ],
-        "location": "RIVER",
         "timeOfDay": [
             {
                 "hourStart": 9,
                 "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "NIBBLE_FISH",
+        "value": 1500,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 5,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 11,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "ANGELFISH",
+        "value": 3000,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 5,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 11,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
+        "name": "BETTA",
+        "value": 2500,
+        "location": "RIVER",
+        "shadow": "SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 5,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 11,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "NEON_TETRA",
+        "value": 500,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 4,
+                "monthEnd": 11
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 10,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 4
+            }
+        ]
+    },
+    {
+        "name": "RAINBOWFISH",
+        "value": 800,
+        "location": "RIVER",
+        "shadow": "VERY_SMALL",
+        "monthsNorth": [
+            {
+                "monthStart": 5,
+                "monthEnd": 10
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 11,
+                "monthEnd": 4
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "PIRANHA",
+        "value": 2500,
+        "location": "RIVER",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 9,
+                "hourEnd": 16
+            }
+        ]
+    },
+    {
+        "name": "AROWANA",
+        "value": 10000,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
+        "name": "DORADO",
+        "value": 15000,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 4,
+                "hourEnd": 21
+            }
+        ]
+    },
+    {
+        "name": "ARAPAIMA",
+        "value": 10000,
+        "location": "RIVER",
+        "shadow": "HUGE",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 16,
+                "hourEnd": 9
+            }
+        ]
+    },
+    {
+        "name": "SADDLED_BICHIR",
+        "value": 4000,
+        "location": "RIVER",
+        "shadow": "LARGE",
+        "monthsNorth": [
+            {
+                "monthStart": 6,
+                "monthEnd": 9
+            }
+        ],
+        "monthsSouth": [
+            {
+                "monthStart": 12,
+                "monthEnd": 3
+            }
+        ],
+        "timeOfDay": [
+            {
+                "hourStart": 21,
+                "hourEnd": 4
             }
         ]
     }

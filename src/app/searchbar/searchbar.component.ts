@@ -16,6 +16,7 @@ export class SearchbarComponent implements OnInit {
 
   @Input() sourceFish: Observable<ItemEntry[]>;
   @Input() sourceInsects: Observable<ItemEntry[]>;
+  @Input() showSouth = false;
 
   fish: ItemEntry[] = [];
   insects: ItemEntry[] = [];
@@ -66,8 +67,10 @@ export class SearchbarComponent implements OnInit {
 
   onClick(data) {
     this.dialog.open(ItemDialogComponent, {
-      width: '250px',
-      data
+      data: {
+        item: data,
+        showSouth: this.showSouth
+      }
     });
   }
 

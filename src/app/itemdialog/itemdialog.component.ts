@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ItemEntry } from '../services/itemparser/itemparser.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-itemdialog',
@@ -9,8 +10,8 @@ import { ItemEntry } from '../services/itemparser/itemparser.service';
 })
 export class ItemDialogComponent implements OnInit {
 
-  constructor(public dialogRef: MatDialogRef<ItemDialogComponent>,
-              @Inject(MAT_DIALOG_DATA) public data: ItemEntry) { }
+  constructor(public translate: TranslateService, public dialogRef: MatDialogRef<ItemDialogComponent>,
+              @Inject(MAT_DIALOG_DATA) public data: { item: ItemEntry, showSouth: boolean }) { }
 
   ngOnInit(): void {
   }

@@ -1,7 +1,10 @@
+@import "~@angular/material/theming";
+@import '../../theme.scss';
+
 .searchbar {
     max-width: 95%;
     width: 40rem;
-    background-color: #f2eac1;
+    background-color: $ac-secondary;
     border-radius: 1rem;
     margin: 0 auto;
 }
@@ -15,13 +18,17 @@
 .optionIcon {
     width: 1.5rem;
     margin-right: 1rem;
-    border-radius: 35%;
+    border-radius: 1rem;
     border-style: groove;
     border-width: thin;
-    border-color: brown; // needs to come from theme
+    border-color: mat-color($ac-accent);
     vertical-align: middle;
 }
 
 .mat-option {
-    background-color: #f2eac1; // needs to come from theme
+    background-color: $ac-secondary;
+}
+
+.mat-option:hover:not(.mat-option-disabled) {
+    background-color: mat-color($ac-accent);
 }
