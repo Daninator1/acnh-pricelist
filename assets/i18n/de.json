@@ -3,14 +3,16 @@
         "PRICELIST": "Preisliste",
         "NAME": "Name",
         "VALUE": "Wert",
-        "MONN": "Monate Norden",
-        "MONS": "Monate Süden",
+        "MONN": "Monate (Norden)",
+        "MONS": "Monate (Süden)",
         "TOD": "Tageszeit",
         "BELLS": "Sternis",
         "LOCATION": "Ort",
         "SEARCH": "Suchen",
         "CURRENT_FISH": "Aktuelle Fische",
-        "CURRENT_INSECTS": "Aktuelle Insekten" 
+        "CURRENT_INSECTS": "Aktuelle Insekten",
+        "ALL_FISH": "Alle Fische",
+        "ALL_INSECTS": "Alle Insekten"
     },
     "MONTH": {
         "1": "Januar",
@@ -47,10 +49,42 @@
         "TREE": "Baum",
         "GROUND": "Boden"
     },
+    "SHADOW": {
+        "VERY_SMALL": "Sehr klein",
+        "SMALL": "Klein",
+        "MEDIUM": "Mittel",
+        "LARGE": "Groß",
+        "HUGE": "Riesig"
+    },
     "FISH": {
         "SEA_BASS": "Seebarsch",
+        "BITTERLING": "Bitterling",
+        "PALE_CHUB": "Döbel",
+        "CRUCIAN_CARP": "Karausche",
+        "DACE": "Hasel",
+        "SOFT_SHELLED_TURTLE": "Weichschildkröte",
+        "SNAPPING_TURTLE": "Schnappschildkröte",
+        "FRESHWATER_GOBY": "Flussgrundel",
         "LOACH": "Bachschmerle",
-        "GUPPY": "Guppy"
+        "BLUEGILL": "Sonnenbarsch",
+        "YELLOW_PERCH": "Flussbarsch",
+        "BLACK_BASS": "Barsch",
+        "TILAPIA": "Tilapia",
+        "PIKE": "Hecht",
+        "POND_SMELT": "Stint",
+        "SWEETFISH": "Ayu",
+        "MITTEN_CRAB": "Wollhandkrabbe",
+        "GUPPY": "Guppy",
+        "NIBBLE_FISH": "Saugbarbe",
+        "ANGELFISH": "Skalar",
+        "BETTA": "Kampffisch",
+        "NEON_TETRA": "Neonsalmler",
+        "RAINBOWFISH": "Regenbogenfisch",
+        "PIRANHA": "Piranha",
+        "AROWANA": "Arowana",
+        "DORADO": "Lachssalmler",
+        "ARAPAIMA": "Arapaima",
+        "SADDLED_BICHIR": "Flösselhecht"
     },
     "INSECT": {
         "PEACOCK_BUTTERFLY": "Ritterfalter",
