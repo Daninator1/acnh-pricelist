@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586879162055,
+  "timestamp": 1586883991036,
   "index": "/acnh-pricelist/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/acnh-pricelist/favicon.ico",
         "/acnh-pricelist/index.html",
-        "/acnh-pricelist/main-es2015.4b1b511b53e997a4c9f5.js",
-        "/acnh-pricelist/main-es5.4b1b511b53e997a4c9f5.js",
+        "/acnh-pricelist/main-es2015.fc5f6a1bbaa45bf9bdb9.js",
+        "/acnh-pricelist/main-es5.fc5f6a1bbaa45bf9bdb9.js",
         "/acnh-pricelist/manifest.webmanifest",
         "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js",
         "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js",
@@ -125,7 +125,7 @@
     "/acnh-pricelist/SecondaRoundW00Bold.66f9442fed72a9ba52e0.ttf": "273e1ea54632ac892179598927176d61dec641f7",
     "/acnh-pricelist/assets/backgrounds/background.png": "842af57649de418c33d1977d3d908e19e490a728",
     "/acnh-pricelist/assets/backgrounds/background.psd": "30b925b01582e5864fd81b4a0d97862df105078d",
-    "/acnh-pricelist/assets/data/fish.json": "2440ddce06e9d4bb32a9514680ae887466777bd7",
+    "/acnh-pricelist/assets/data/fish.json": "d3b8379e5d01466c86e3ce51f83ec0c1cf02740d",
     "/acnh-pricelist/assets/data/insects.json": "22d65c8e19d7f0e9f4384a4abe7d81d71638f044",
     "/acnh-pricelist/assets/fonts/FinkHeavyRegular.ttf": "33feeddea2f837484a0eaf61233fe9a697e018a0",
     "/acnh-pricelist/assets/fonts/SecondaRoundW00Bold.ttf": "273e1ea54632ac892179598927176d61dec641f7",
@@ -211,9 +211,9 @@
     "/acnh-pricelist/assets/icons/insects/walking_stick_small.png": "abf76c9d30d46884d1640488b9c384df8d21640b",
     "/acnh-pricelist/background.b205e9821644420570ef.png": "842af57649de418c33d1977d3d908e19e490a728",
     "/acnh-pricelist/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/acnh-pricelist/index.html": "9ef9cedcb3bb2b7ca6847cade3f8b74ed6993f84",
-    "/acnh-pricelist/main-es2015.4b1b511b53e997a4c9f5.js": "ffcdfa039610f898ea2d3471f2863384389b2313",
-    "/acnh-pricelist/main-es5.4b1b511b53e997a4c9f5.js": "c5a3f26ef3e26bc1f7d00130546f0215ff75d7ad",
+    "/acnh-pricelist/index.html": "cfc0626fe952ea7667f4b7c4a994af08b0265e28",
+    "/acnh-pricelist/main-es2015.fc5f6a1bbaa45bf9bdb9.js": "d0fb877b67da9e9cd510d41d9dc6e343d70d9db6",
+    "/acnh-pricelist/main-es5.fc5f6a1bbaa45bf9bdb9.js": "f4056b7ee0a060ea78f7f26b4868b3f18ed4774a",
     "/acnh-pricelist/manifest.webmanifest": "01d07266318faa775ab1efc8231e13637764cec3",
     "/acnh-pricelist/polyfills-es2015.cea97cb0aad921b2934d.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "/acnh-pricelist/polyfills-es5.417b232c21b486996386.js": "2169a8f7eac1f1899a657e859de525fa80e57a22",
