@@ -27,6 +27,7 @@
         "name": "BITTERLING",
         "value": 900,
         "location": "RIVER",
+        "shadow": "VERY_SMALL",
         "monthsNorth": [
             {
                 "monthStart": 11,

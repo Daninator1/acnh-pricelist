@@ -1,22 +1,38 @@
-<mat-toolbar color="primary" class="mat-elevation-z4">
-  <mat-toolbar-row>
-    <span id="title">ACNH {{'GENERAL.PRICELIST' | translate}}</span>
-    <span class="example-spacer"></span>
-    <span>
-      south <input type="checkbox" [(ngModel)]="checked" >
-    </span>
-    <span>
-      <select #langSelect (change)="translate.use(langSelect.value)">
-        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
-          {{ lang }}</option>
-      </select>
-    </span>
-  </mat-toolbar-row>
-</mat-toolbar>
-<div class="container">
-  <app-searchbar class="searchbar" [showSouth]="checked" [sourceFish]="parser.fish" [sourceInsects]="parser.insects"></app-searchbar>
-  <app-itemlist class="fishlist" title="GENERAL.ALL_FISH" [showSouth]="checked" [source]="parser.fish"
-    translationPrefix="FISH."></app-itemlist>
-  <app-itemlist class="insectlist" title="GENERAL.ALL_INSECTS" [showSouth]="checked" [source]="parser.insects"
-    translationPrefix="INSECT."></app-itemlist>
-</div>
+<header>
+  <mat-toolbar color="primary" class="mat-elevation-z4">
+    <mat-toolbar-row>
+      <span id="title">ACNH {{'GENERAL.PRICELIST' | translate}}</span>
+      <span class="example-spacer"></span>
+      <span>
+        south <input type="checkbox" [(ngModel)]="checked">
+      </span>
+      <span>
+        <select #langSelect (change)="translate.use(langSelect.value)">
+          <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+            {{ lang }}</option>
+        </select>
+      </span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>
+
+<body>
+  <div class="container">
+    <app-searchbar class="searchbar" [showSouth]="checked" [sourceFish]="parser.fish" [sourceInsects]="parser.insects">
+    </app-searchbar>
+    <app-itemlist class="fishlist" title="GENERAL.ALL_FISH" [showSouth]="checked" [source]="parser.fish"
+      translationPrefix="FISH."></app-itemlist>
+    <app-itemlist class="insectlist" title="GENERAL.ALL_INSECTS" [showSouth]="checked" [source]="parser.insects"
+      translationPrefix="INSECT."></app-itemlist>
+  </div>
+</body>
+
+<footer>
+
+  <h5>Footer Content</h5>
+  <p>Here you can use rows and columns here to organize your footer content.</p>
+
+  <div>© 2020 Copyright:
+    <a href="https://github.com/daninator1/" target="_blank">Daninator1</a>
+  </div>
+</footer>

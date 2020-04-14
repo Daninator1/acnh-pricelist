@@ -2,18 +2,23 @@
     <img style="width: inherit;" [src]="data.item.type === 0 ? 'assets/icons/fish/' + data.item.name.toLowerCase() + '.png' :
     'assets/icons/insects/' + data.item.name.toLowerCase() + '.png'">
     <p style="font-size: x-large;">{{(data.item.type === 0 ? 'FISH.' : 'INSECT.') + data.item.name | translate}}</p>
-    <p style="font-size: larger;">{{data.item.value | number:'':translate.currentLang}} {{'GENERAL.BELLS' | translate}}</p>
+    <p style="font-size: larger;">{{data.item.value | number:'':translate.currentLang}} {{'GENERAL.BELLS' | translate}}
+    </p>
     <p style="font-size: larger;">{{'LOCATION.' + data.item.location | translate}}</p>
     <div class="containerSub">
         <div>
-            <p [hidden]="data.showSouth" *ngFor="let monthsNorth of data.item.monthsNorth">{{'MONTH.' + monthsNorth.monthStart | translate}} - {{'MONTH.' + monthsNorth.monthEnd | translate}}</p>
-            <p [hidden]="!data.showSouth" *ngFor="let monthsSouth of data.item.monthsSouth">{{'MONTH.' + monthsSouth.monthStart | translate}} - {{'MONTH.' + monthsSouth.monthEnd | translate}}</p>
+            <p [hidden]="data.showSouth" *ngFor="let monthsNorth of data.item.monthsNorth">
+                {{'MONTH.' + monthsNorth.monthStart | translate}} - {{'MONTH.' + monthsNorth.monthEnd | translate}}</p>
+            <p [hidden]="!data.showSouth" *ngFor="let monthsSouth of data.item.monthsSouth">
+                {{'MONTH.' + monthsSouth.monthStart | translate}} - {{'MONTH.' + monthsSouth.monthEnd | translate}}</p>
         </div>
         <div>
-            <p *ngFor="let timeOfDay of data.item.timeOfDay">{{timeOfDay.hourStart | hour}} - {{timeOfDay.hourEnd | hour}}</p>
+            <p *ngFor="let timeOfDay of data.item.timeOfDay">{{timeOfDay.hourStart | hour}} -
+                {{timeOfDay.hourEnd | hour}}</p>
         </div>
-        
+
     </div>
-    <img [hidden]="data.item.type === 1" style="width: 20%;" [src]="'assets/icons/fish/shadow_' + data.item.shadow.toLowerCase() + '.png'">
-    <p>{{'SHADOW.' + data.item.shadow | translate}}</p>
+    <img *ngIf="data.item.type === 0" style="width: 20%;"
+        [src]="'assets/icons/fish/shadow_' + data.item.shadow.toLowerCase() + '.png'">
+    <p *ngIf="data.item.type === 0">{{'SHADOW.' + data.item.shadow | translate}}</p>
 </div>

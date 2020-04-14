@@ -9,7 +9,8 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HourPipe } from './utils/HourPipe';
+import { HourPipe } from './utils/hour.pipe';
+import { ItemPipe } from './utils/item.pipe';
 import { TranslateLocalLoader } from './utils/TranslateLocalLoader';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -28,7 +29,6 @@ import localeEn from '@angular/common/locales/en';
 import localeDe from '@angular/common/locales/de';
 import { ItemDialogComponent } from './itemdialog/itemdialog.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
-import { ItemParserService } from './services/itemparser/itemparser.service';
 
 registerLocaleData(localeEn, 'en');
 registerLocaleData(localeDe, 'de');
@@ -43,6 +43,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     ItemlistComponent,
     HourPipe,
+    ItemPipe,
     ItemDialogComponent,
     SearchbarComponent
   ],

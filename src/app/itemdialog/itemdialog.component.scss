@@ -1,5 +1,5 @@
 @import "~@angular/material/theming";
-@import '../../theme.scss';
+@import '../../styles/variables.scss';
 
 ::ng-deep .mat-dialog-container {
     background-color: $ac-secondary;

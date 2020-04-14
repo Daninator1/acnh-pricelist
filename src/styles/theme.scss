@@ -1,0 +1,13 @@
+@import "~@angular/material/theming";
+@import './variables.scss';
+@include mat-core();
+
+// $ac-primary: mat-palette($mat-brown, 400);
+// $ac-accent: mat-palette($mat-brown, 300);
+// $ac-warn: mat-palette($mat-red);
+// $ac-secondary: #f2eac1;
+// $ac-title: brown;
+
+$ac-theme: mat-light-theme($ac-primary, $ac-accent, $ac-warn);
+
+@include angular-material-theme($ac-theme);
