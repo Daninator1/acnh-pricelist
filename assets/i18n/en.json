@@ -12,7 +12,9 @@
         "CURRENT_FISH": "Current Fish",
         "CURRENT_INSECTS": "Current Insects",
         "ALL_FISH": "All Fish",
-        "ALL_INSECTS": "All Insects"
+        "ALL_INSECTS": "All Insects",
+        "SETTING_SOUTH": "South",
+        "SETTING_LANG": "Language"
     },
     "MONTH": {
         "1": "January",
