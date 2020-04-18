@@ -13,8 +13,8 @@
                 {{'MONTH.' + monthsSouth.monthStart | translate}} - {{'MONTH.' + monthsSouth.monthEnd | translate}}</p>
         </div>
         <div>
-            <p *ngFor="let timeOfDay of data.item.timeOfDay">{{timeOfDay.hourStart | hour}} -
-                {{timeOfDay.hourEnd | hour}}</p>
+            <p *ngFor="let timeOfDay of data.item.timeOfDay">{{timeOfDay.hourStart | hour : translate.currentLang === 'en'}} -
+                {{timeOfDay.hourEnd | hour : translate.currentLang === 'en'}}</p>
         </div>
 
     </div>
