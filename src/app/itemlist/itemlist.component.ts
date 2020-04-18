@@ -31,14 +31,14 @@ export class ItemlistComponent implements OnInit, OnChanges {
     } else {
       this.displayedColumns[3] = 'monthsNorth';
     }
-  }
 
-  ngOnInit(): void {
     this.source.subscribe(res => {
-      console.log(res);
       this.dataSource = res;
       this.dataSourceSorted = res;
     });
+  }
+
+  ngOnInit(): void {
   }
 
   onClick(data) {

@@ -1,42 +1,57 @@
+@import "~@angular/material/theming";
+@import '../styles/variables.scss';
+
 @font-face {
     font-family: "FinkHeavy";
     src: url("../assets/fonts/FinkHeavyRegular.ttf");
 }
 
-.example-spacer {
-    flex: 1 1 auto;
-}
-
 .mat-toolbar {
     border-radius: 0rem 0rem 1rem 1rem;
-    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.mat-select {
+    width: 3rem;
 }
 
 #title {
     font-family: FinkHeavy, "Helvetica Neue", sans-serif;
     font-size: xx-large;
+    margin: auto;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100%;
 }
 
-.searchbar {
-    display: flex;
-}
+// .searchbar {
+//     display: flex;
+// }
 
-.fishlist {
-    display: flex;
-}
+// .fishlist {
+//     display: flex;
+// }
 
-.insectlist {
-    display: flex;
-}
+// .insectlist {
+//     display: flex;
+// }
 
 footer {
-    visibility: hidden;
     text-align: center;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
 
+.footerFirstRow {
+    background-color: mat-color($ac-primary);
+    padding: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.footerSecondRow {
+    background-color: mat-color($ac-accent);
+    padding: 0.5rem;
 }

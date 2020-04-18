@@ -12,7 +12,9 @@
         "CURRENT_FISH": "Aktuelle Fische",
         "CURRENT_INSECTS": "Aktuelle Insekten",
         "ALL_FISH": "Alle Fische",
-        "ALL_INSECTS": "Alle Insekten"
+        "ALL_INSECTS": "Alle Insekten",
+        "SETTING_SOUTH": "Süden",
+        "SETTING_LANG": "Sprache"
     },
     "MONTH": {
         "1": "Januar",

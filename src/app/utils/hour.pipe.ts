@@ -1,8 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 @Pipe({
-    name: 'hour',
-    pure: false
+    name: 'hour'
 })
 export class HourPipe implements PipeTransform {
 
@@ -10,8 +9,8 @@ export class HourPipe implements PipeTransform {
 
     }
 
-    public transform(value: number): string {
-        if (this.translate.currentLang !== 'en') {
+    public transform(value: number, twelveHour: boolean): string {
+        if (!twelveHour) {
             return ('0' + value).slice(-2).toString();
         }
 

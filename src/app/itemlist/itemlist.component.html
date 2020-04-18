@@ -56,9 +56,9 @@
             <th mat-header-cell *matHeaderCellDef mat-sort-header> {{'GENERAL.TOD' | translate}} </th>
             <td mat-cell *matCellDef="let element">
                 <div class="hourContainer" *ngFor="let timeOfDay of element.timeOfDay">
-                    <div class="hourStart">{{timeOfDay.hourStart | hour}}</div>
+                    <div class="hourStart">{{timeOfDay.hourStart | hour : translate.currentLang === 'en'}}</div>
                     <div class="hourSeparator"> - </div>
-                    <div class="hourEnd">{{timeOfDay.hourEnd | hour}}</div>
+                    <div class="hourEnd">{{timeOfDay.hourEnd | hour : translate.currentLang === 'en'}}</div>
                 </div>
             </td>
         </ng-container>
